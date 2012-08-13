@@ -13,7 +13,7 @@ class PEG_CallbackAction implements PEG_IParser
     function __construct($callback, PEG_IParser $parser)
     {
         if (!is_callable($callback)) {
-            throw new InvalidArgumentException('first argument must be callable');
+            throw new InvalidArgumentException('first argument must be callable ... ' . var_export($callback, true));
         }
 
         list($this->callback, $this->parser) = func_get_args();

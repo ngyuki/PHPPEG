@@ -8,6 +8,7 @@
  * @version $Id: PEG.php 1611 2010-02-03 05:04:37Z anatoo $
  */
 
+/*
 include_once dirname(__FILE__) . '/PEG/IContext.php';
 include_once dirname(__FILE__) . '/PEG/IParser.php';
 
@@ -35,6 +36,7 @@ include_once dirname(__FILE__) . '/PEG/Util.php';
 include_once dirname(__FILE__) . '/PEG/ErrorReporter.php';
 include_once dirname(__FILE__) . '/PEG/InstantParser.php';
 include_once dirname(__FILE__) . '/PEG/Delay.php';
+*/
 
 class PEG
 {
